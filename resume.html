@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raunit Kumar - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+      /*  body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }*/
+        body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2ed6ec, #ffffff);
+    background-size: cover;
+    background-position: center;
+    }
+
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 15px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-container h4 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background-color: #feb47b;
+            color: #333;
+        }
+
+        .resume-header {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .resume-header h1 {
+            color: #ff7e5f;
+            text-shadow: -2px 2px 3px #737272;
+            font-size: 40px;
+        }
+
+        .section {
+            background-color: #fff;
+            width: 100%;
+            max-width: 900px;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #ff7e5f;
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .section p, .section ul {
+            color: #666;
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+        }
+
+        .section ul li:before {
+            content: "\f192"; /* Font Awesome icon */
+            font-family: "Font Awesome 5 Free";
+            margin-right: 10px;
+            color: #ff7e5f;
+            font-weight: 900;
+        }
+
+        .footer {
+            width: 100%;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 20px;
+            }
+
+            .resume-header h1 {
+                font-size: 28px;
+            }
+
+            .section h2 {
+                font-size: 24px;
+            }
+
+            .nav-container {
+                flex-direction: column;
+            }
+
+            .nav-links {
+                margin-top: 15px;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section {
+                padding: 15px;
+            }
+
+            .resume-header h1 {
+                font-size: 24px;
+            
+            }
+
+            .section h2 {
+                font-size: 20px;
+            }
+
+            .nav-container h4 {
+                font-size: 20px;
+            }
+
+            .nav-links a {
+                font-size: 14px;
+            }
+        }
+
+        .download-btn {
+            background-color: #ff7e5f; /* Green background */
+            color: white; /* White text */
+            padding: 10px 20px; /* Some padding */
+            border: none; /* No borders */
+            border-radius: 5px; /* Rounded corners */
+            text-align: center; /* Center the text */
+            text-decoration: none; /* Remove underline from text */
+            display: inline-block; /* Make the button inline-block */
+            font-size: 20px; /* Increase font size */
+            cursor: pointer; /* Pointer/hand icon on hover */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+        .download-btn:hover {
+            background-color: #feb47b; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <h4>Raunit Kumar</h4>
+            <ul class="nav-links">
+                <li><a href="home.html">About Me</a></li>
+                <li><a class="active" href="resume.html">Resume</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Resume Header -->
+    <div class="resume-header">
+        <h1>RESUME</h1>
+    </div>
+    <p>
+        <a href="resume-raunit.pdf" download="resume-raunit.pdf" class="download-btn"> <b>Download Resume</b> </a>
+    </p>
+    <!-- Academics Section -->
+    <div class="section">
+        <h2>Academics</h2>
+        <ul>
+            <li>Pursuing B.Tech in Electronics and Communication from Narula Institute of Technology (2022-26). GPA: 8.57</li>
+            <li>Intermediate (12th) from M.L.S.M. College (2022), BSEB Board, with 73%</li>
+            <li>Matriculation (10th) from Madonna English School (2020), ICSE Board, with 85%</li>
+        </ul>
+    </div>
+
+    <!-- Achievements/Internship Section -->
+    <div class="section">
+        <h2>Achievements/Internship</h2>
+        <ul>
+            <li>Internship in "C Programming Language" with Euphoria GenX (March 15 - August 5, 2023)</li>
+            <li>Awarded Best Presenter at the 6th National Conference on Science, Technology, and Communication Skills, organized by Narula Institute of Technology</li>
+            <li>Published a paper on "Optimization Strategy to Minimize Allocated Space for Placing Maximum Number of Products in Retail Stores" with IARJSET (September 3, 2023)</li>
+        </ul>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>C, C++, Python</li>
+            <li>Data Structures and Algorithms (DSA)</li>
+        </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        &copy; 2024 Raunit Kumar. All rights reserved.
+    </footer>
+
+</body>
+</html>

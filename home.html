@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raunit Kumar - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       /* body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }*/
+        body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #2ed6ec, #ffffff);
+    background-size: cover;
+    background-position: center;
+    }
+
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 15px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-container h4 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background-color: #feb47b;
+            color: #333;
+        }
+
+        .section {
+            background-color: #fff;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 50px;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .section h1 {
+            color: #ff7e5f;
+            font-size: 32px;
+            margin-top: 20px;
+        }
+
+        .section p {
+            color: #666;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .buttons .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-size: 16px;
+            text-decoration: none;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-btn {
+            background-color: #ff7e5f;
+            color: #fff;
+        }
+
+        .resume-btn:hover {
+            background-color: #feb47b;
+        }
+
+        .projects-btn {
+            background-color: #fff;
+            color: #ff7e5f;
+            border: 2px solid #ff7e5f;
+        }
+
+        .projects-btn:hover {
+            background-color: #ff7e5f;
+            color: #fff;
+        }
+
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            color: #333;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ff7e5f;
+        }
+
+        .footer {
+            width: 100%;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                margin-top: 30px;
+                padding: 30px 10px;
+            }
+
+            .section h1 {
+                font-size: 28px;
+            }
+
+            .buttons .btn {
+                padding: 10px 20px;
+                font-size: 24px;
+            }
+
+            .nav-container {
+                flex-direction: column;
+            }
+
+            .nav-links {
+                margin-top: 15px;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section {
+                margin-top: 20px;
+                padding: 20px 10px;
+            }
+
+            .section h1 {
+                font-size: 24px;
+            }
+
+            .buttons .btn {
+                padding: 8px 15px;
+                font-size: 12px;
+            }
+
+            .nav-container h4 {
+                font-size: 20px;
+            }
+
+            .nav-links a {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <h4>Raunit Kumar</h4>
+            <ul class="nav-links">
+                <li><a class="active" href="home.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="section">
+        <img src="raunit.jpg" alt="Raunit's Picture">
+        <h1>Hello, I'm Raunit</h1>
+        <p>I'm a B.Tech student majoring in Electronics and Communication Engineering 
+            at Narula Institute of Technology. My academic focus includes programming 
+            languages like C, C++, Python and Data Structures and Algorithms. I've also delved 
+            into web development, showcasing my skills in this dynamic field.</p>
+        <div class="buttons">
+            <a href="resume.html" class="btn resume-btn">RESUME</a>
+            <a href="project.html" class="btn projects-btn">PROJECTS</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/raunit-kumar-96b76a228" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/krRaunit" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        &copy; 2024 Raunit Kumar. All rights reserved.
+    </footer>
+
+</body>
+</html>
